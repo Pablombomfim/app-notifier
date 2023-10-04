@@ -2,8 +2,6 @@ name: IaC Lifecycle
 
 on:
   push:
-    branches:
-    - develop
 
 jobs:
 
