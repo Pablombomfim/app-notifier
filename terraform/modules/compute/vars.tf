@@ -92,17 +92,17 @@ variable "ec2_asg_max_size" {
     default = 16
 }
 
-# variable "access_key_id" {
-#     type    = string
-#     default = "12345"
-# }
+variable "access_key_id" {
+    type    = string
+    default = "12345"
+}
 
-# variable "secret_access_key" {
-#     type    = string
-#     default = "12345"
-# }
+variable "secret_access_key" {
+    type    = string
+    default = "12345"
+}
 
-# variable "session_token" {
-#     type    = string
-#     default = "12345"
-# }
+variable "session_token" {
+    type    = string
+    default = "12345"
+}
