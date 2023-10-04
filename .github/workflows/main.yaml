@@ -43,7 +43,7 @@ jobs:
       run : pip3 install -U checkov
 
     - name: Step 07 - Run Checkov
-      run : checkov -d /terraform
+      run : checkov -d 
 
     - name: Step 09 - Terraform Plan
       run : terraform -chdir=./terraform plan -input=false 
