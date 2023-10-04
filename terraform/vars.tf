@@ -45,27 +45,27 @@ variable "rds_identifier" {
 
 variable "rds_sn_group_name" {
     type    = string
-    default = "rds-sn-group-notifier"
+    default = "rds-sn-group-notifier-1"
 }
 
 variable "rds_param_group_name" {
     type    = string
-    default = "rds-param-group-notifier"
+    default = "rds-param-group-notifier-1"
 }
 
 variable "rds_dbname" {
     type    = string
-    default = "rdsdbnotifier"
+    default = "rdsdbnotifier-1"
 }
 
 variable "rds_dbuser" {
     type    = string
-    default = "rdsdbadmin"
+    default = "rdsdbadmin-1"
 }
 
 variable "rds_dbpassword" {
     type    = string
-    default = "rdsdbadminpwd"
+    default = "rdsdbadminpwd-1"
 }
 
 

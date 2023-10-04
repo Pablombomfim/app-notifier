@@ -9,17 +9,17 @@ variable "vpc_sg_priv_id" {}
 
 variable "rds_sn_group_name" {
     type    = string
-    default = "rds-sn-group-name"
+    default = "rds-sn-group-name-1"
 }
 
 variable "rds_param_group_name" {
     type    = string
-    default = "rds-param-group-name"
+    default = "rds-param-group-name-1"
 }
 
 variable "rds_identifier" {
     type    = string
-    default = "rds-identifier"
+    default = "rds-identifier-1"
 }
 
 variable "rds_family" {
